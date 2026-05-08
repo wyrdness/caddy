@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/caddy",
     "maintainers": [
       {
@@ -16,111 +16,357 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "caddy",
-    "name": "Cadborosaurus - Caddy, The Pacific Northwest Sea Serpent",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Cadborosaurus",
+    "aliases": [
+      { "name": "Caddy", "region": "Pacific Northwest", "meaning": "Affectionate short form of Cadborosaurus" },
+      { "name": "Cadborosaurus willsi", "meaning": "Proposed (non-validated) species name applied by Bousfield and LeBlond (1995)" },
+      { "name": "Hiyitlik", "language": "Manhousat (Nuu-chah-nulth)", "region": "West Coast of Vancouver Island" },
+      { "name": "Sisiutl", "language": "Kwakwaka'wakw (Kwak'wala)", "region": "British Columbia coast", "meaning": "Two-headed sea serpent of Pacific Northwest Coast tradition (a related but distinct figure)" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Sea serpent / marine cryptid",
+    "tags": [
+      "sea-serpent",
+      "marine-cryptid",
+      "british-columbia",
+      "pacific-northwest",
+      "vancouver-island",
+      "first-nations",
+      "cadboro-bay"
+    ],
+    "status": "active",
     "description": {
-      "summary": "Described as a long-necked, serpentine marine animal measuring 15-60 feet in length, Caddy is characterized by a horse-like head, long neck, humped body, and possible flippers or fins.",
-      "full": "Described as a long-necked, serpentine marine animal measuring 15-60 feet in length, Caddy is characterized by a horse-like head, long neck, humped body, and possible flippers or fins. Unlike purely legendary creatures, Caddy has been photographed (though inconclusively), and alleged carcasses have been examined (all proven to be known animals upon analysis). The creature shares characteristics with other sea serpent reports worldwide, leading cryptozoologists to speculate it may represent an unknown species of marine animal—perhaps a surviving plesiosaur, giant eel, or entirely novel creature. The waters of British Columbia and Washington State provide a plausible habitat: deep, cold, nutrient-rich ocean with abundant fish populations, kelp forests, and thousands of islands creating sheltered bays and channels. The region's maritime culture and indigenous traditions both include long histories of large sea creature sightings, lending cultural depth to the modern Caddy phenomenon."
+      "summary": "Cadborosaurus, popularly 'Caddy', is a sea-serpent cryptid reported along the Pacific coast from Alaska to California, with the densest cluster of sightings in the inland waters around Vancouver Island, British Columbia, and named after Cadboro Bay near Victoria.",
+      "full": "Cadborosaurus, commonly called 'Caddy', is a marine cryptid associated with the inland and coastal waters of the Pacific Northwest, particularly the Strait of Georgia, Cadboro Bay, and the waters around Vancouver Island. Witnesses describe a long-necked, serpentine animal with a horse- or camel-like head, vertical humps or coils behind the head, and either flippers or a fan-shaped tail; reported lengths range from approximately 5 m (15 ft) to over 30 m (100 ft) in the most extravagant accounts. The modern phenomenon coalesced in the autumn of 1933, when Major W. H. Langley, clerk of the British Columbia Legislature, reported a sighting from his sailboat near Discovery Island, off Cadboro Bay; the Victoria Daily Times' managing editor Archie Wills coined the name 'Cadborosaurus'. A purported juvenile carcass extracted in October 1937 from the stomach of a sperm whale processed at the Naden Harbour whaling station was photographed and tentatively examined before being lost; cetologists today usually attribute it to a known animal (most plausibly a fetal baleen whale or basking shark). Carcasses subsequently associated with Caddy have all been identified as known species (basking sharks, decomposed whales, oarfish, elephant seals). Indigenous Pacific Northwest Coast peoples maintain long-standing traditions of large sea creatures — including the Manhousat hiyitlik and the Kwakwaka'wakw sisiutl — that predate and remain conceptually distinct from the colonial-era Cadborosaurus framing. Cetacean biologists Edward L. Bousfield and Paul LeBlond compiled approximately 200 sightings and proposed the binomial 'Cadborosaurus willsi' in a 1995 paper, an attribution rejected by the mainstream zoological community. Skeptics, including Darren Naish, argue that the sightings record is best explained by a heterogeneous mix of misidentified known species rather than a single unknown animal."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Coined by Archie Wills, managing editor of the Victoria Daily Times, in late 1933 following Major W. H. Langley's sighting near Discovery Island. Constructed from 'Cadboro' (Cadboro Bay, Victoria, B.C.) plus the Greek 'sauros' (lizard).",
+      "meaning": "'Cadboro Bay lizard' — applied by analogy with classical-zoology naming.",
+      "first_use": "1933, in the Victoria Daily Times."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Sea serpent / marine cryptid",
+      "subtype": "Long-necked sea serpent",
+      "variant": "Pacific Northwest"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "loch-ness-monster", "name": "Loch Ness Monster", "relationship": "similar", "description": "Long-necked freshwater cryptid of Scotland" },
+      { "id": "ogopogo", "name": "Ogopogo", "relationship": "similar", "description": "British Columbia freshwater lake cryptid" },
+      { "id": "ogopogo", "name": "Champ", "relationship": "similar", "description": "Lake Champlain cryptid of the eastern United States" },
+      { "id": "sisiutl", "name": "Sisiutl", "relationship": "related", "description": "Two-headed sea serpent of Kwakwaka'wakw tradition; conceptually distinct" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 5, "max": 30, "unit": "meters", "confidence": "low" },
+      "coloration": ["dark brown", "greenish-brown", "grey"],
+      "features": [
+        { "feature": "Long flexible neck", "description": "Witnesses repeatedly describe a long, flexible neck capable of being held vertically above the water", "frequency": "always" },
+        { "feature": "Horse- or camel-like head", "description": "Small head with prominent eyes; sometimes mane-like growth at the back", "frequency": "common" },
+        { "feature": "Vertical humps or coils", "description": "Dorsal humps that break the water sequentially, sometimes interpreted as vertical undulations", "frequency": "common" },
+        { "feature": "Front flippers", "description": "Pair of pectoral flippers reported in many accounts", "frequency": "common" },
+        { "feature": "Fan-like or spike-tipped tail", "description": "Posterior fluke described in Bousfield/LeBlond's reconstruction", "frequency": "occasional" },
+        { "feature": "Serrated dorsal markings", "description": "Langley's 1933 description noted serrated marks along the back and sides", "frequency": "occasional" }
+      ],
+      "morphology": "Bousfield and LeBlond (1995) reconstructed Cadborosaurus as a marine reptile-like animal with a long neck, vertical undulation, paired flippers, and a fan-shaped tail. Mainstream cetologists treat this reconstruction as an artifact of pooling diverse misidentified animals."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Rapid swimming", "description": "Witnesses describe high apparent speeds, in some accounts faster than nearby boats", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Vertical undulation", "description": "Reportedly moves with vertical (rather than horizontal) body waves, unlike known fish", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Surface and submerge rapidly", "description": "Disappears beneath the surface when noticed by witnesses", "frequency": "common", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "diurnal",
+      "disposition": "passive",
+      "social_structure": "variable",
+      "habitat_preference": ["coastal Pacific waters", "inland straits and channels", "kelp forests", "salmon-rich estuaries"],
+      "diet": "Hypothesised piscivorous in pro-cryptid accounts; no direct evidence.",
+      "patterns": [
+        "Sighting reports peak in late summer when boating activity is highest",
+        "Concentrated in inland B.C. waters but extending from Alaska to California",
+        "Sightings frequently associated with salmon runs"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The reported range covers the Pacific coast from Alaska to northern California, with the densest cluster of sightings in the inland waters around Vancouver Island, the Strait of Georgia, Puget Sound, and adjacent inlets.",
+      "continents": ["North America"],
+      "countries": ["Canada", "United States"],
+      "regions": [
+        "British Columbia",
+        "Vancouver Island",
+        "Strait of Georgia",
+        "Puget Sound",
+        "Washington",
+        "Oregon",
+        "Alaska",
+        "Northern California"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Cadboro Bay",
+        "location": {
+          "description": "Cadboro Bay, Saanich, near Victoria",
+          "country": "Canada",
+          "region": "British Columbia",
+          "coordinates": { "latitude": 48.4544, "longitude": -123.2944 }
+        },
+        "peak_period": "1933–present",
+        "notes": "Namesake bay; site of multiple early-20th-century sightings."
+      },
+      {
+        "name": "Discovery Island",
+        "location": {
+          "description": "Discovery Island, off the southern tip of Vancouver Island",
+          "country": "Canada",
+          "region": "British Columbia",
+          "coordinates": { "latitude": 48.4233, "longitude": -123.2272 }
+        },
+        "peak_period": "1933",
+        "notes": "Site of Major W. H. Langley's 1933 sighting that triggered the modern phenomenon."
+      },
+      {
+        "name": "Naden Harbour",
+        "location": {
+          "description": "Naden Harbour whaling station, Haida Gwaii",
+          "country": "Canada",
+          "region": "British Columbia",
+          "coordinates": { "latitude": 54.0250, "longitude": -132.7830 }
+        },
+        "peak_period": "October 1937",
+        "notes": "Site of the recovery of a purported juvenile Caddy carcass from a sperm whale's stomach."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-contact",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Indigenous Pacific Northwest Coast oral traditions of large sea creatures"
+      },
+      "peak_activity_periods": [
+        { "period": "1933–1940", "description": "Initial flap of newspaper-reported sightings driven by the 1933 Langley account" },
+        { "period": "1990s", "description": "Bousfield and LeBlond's compilation, photo claims, and the 1995 'Cadborosaurus willsi' proposal" },
+        { "period": "2009", "description": "Renewed interest after Kelly Nash's Nushagak Bay video claim" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Indigenous Pacific Northwest Coast traditions of large sea beings, including the Manhousat hiyitlik and Kwakwaka'wakw sisiutl, predate the colonial-era cryptid framing.",
+      "earliest_accounts": "Indigenous oral tradition; first published English-language sighting reports from the late 19th and early 20th centuries.",
+      "folklore_connections": "Connected to a global family of long-necked sea-serpent traditions, and within North America to Ogopogo and Champ."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1933-10", "event": "Major W. H. Langley reports a sighting near Discovery Island; the Victoria Daily Times publishes the account, and editor Archie Wills coins 'Cadborosaurus'", "significance": "Launches the modern phenomenon", "source": "Victoria Daily Times (October 1933)" },
+      { "date": "1937-10", "event": "A purported juvenile Caddy carcass is recovered from the stomach of a sperm whale at the Naden Harbour whaling station", "significance": "Most-cited physical-evidence claim; specimen subsequently lost", "source": "Naden Harbour whaling station records; Bousfield & LeBlond (1995)" },
+      { "date": "1995", "event": "Edward L. Bousfield and Paul H. LeBlond publish 'An Account of Cadborosaurus willsi, New Genus, New Species' in Amphipacifica", "significance": "Most-cited academic argument for Cadborosaurus as an unknown species", "source": "Bousfield, E. L. & LeBlond, P. H. (1995), Amphipacifica" },
+      { "date": "2009", "event": "Alaskan fisherman Kelly Nash claims to have filmed multiple Cadborosaurus-type animals in Nushagak Bay", "significance": "High-profile modern video claim", "source": "Discovery Channel coverage (2011)" }
+    ],
+    "modern_era": "Cadborosaurus continues to draw periodic media attention from fishing communities along the British Columbia and Alaska coasts. The mainstream zoological consensus is that the case rests on an aggregation of misidentified known species — most prominently basking sharks, oarfish, decomposed whales, sea lions in line formation, and elephant seals — and that the physical-evidence record contains no specimen verifiable as a new taxon. The 1995 'Cadborosaurus willsi' proposal has been criticised by zoologists including Darren Naish for relying on heterogeneous eyewitness accounts and a single lost photograph."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 200,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 200,
+      "debunked": 0,
+      "date_range": { "earliest": "1900s", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "caddy-sighting-1933-langley",
+        "name": "Major W. H. Langley sighting (Discovery Island)",
+        "date": { "value": "1933-10-01", "precision": "approximate" },
+        "location": {
+          "description": "Inshore waters near Discovery Island, off Cadboro Bay",
+          "country": "Canada",
+          "region": "British Columbia",
+          "locality": "Saanich",
+          "coordinates": { "latitude": 48.4233, "longitude": -123.2272, "precision": "approximate" }
+        },
+        "witnesses": { "count": 2, "types": ["Major W. H. Langley (clerk of the B.C. Legislature)", "Mrs. Langley"], "credibility_factors": ["Public official as primary witness", "Daylight conditions"] },
+        "description": "Langley and his wife, sailing near Discovery Island, reported seeing the dome of a creature's back break the surface within roughly 30 m (100 ft) of their boat. The animal was described as the size of a large whale but unlike any known species, dark greenish-brown, with serrated marks along its back and sides. The Victoria Daily Times published the account under managing editor Archie Wills, who coined the name 'Cadborosaurus'.",
+        "conditions": { "weather": "Clear", "visibility": "Good", "time_of_day": "Daylight", "duration": "Brief surface encounter" },
+        "evidence": ["Newspaper coverage in the Victoria Daily Times"],
+        "credibility": { "rating": "medium", "factors": ["Reputable public-official witness", "No physical evidence preserved"], "notes": "Foundational modern Caddy report; the basis for the name." },
+        "sources": ["Victoria Daily Times (October 1933)", "Bousfield, E. L. & LeBlond, P. H. (1995)"],
+        "featured": true
+      },
+      {
+        "id": "caddy-sighting-1937-naden-harbour",
+        "name": "Naden Harbour carcass",
+        "date": { "value": "1937-10-01", "precision": "approximate" },
+        "location": {
+          "description": "Naden Harbour whaling station, Haida Gwaii",
+          "country": "Canada",
+          "region": "British Columbia",
+          "locality": "Naden Harbour",
+          "coordinates": { "latitude": 54.0250, "longitude": -132.7830, "precision": "approximate" }
+        },
+        "witnesses": { "count": 4, "types": ["Whaling-station workers"], "credibility_factors": ["Photographed before disposal", "Multiple worker witnesses"] },
+        "description": "A roughly 3 m (10 ft) carcass with a long neck, horse-like head, and serpentine body was recovered from the stomach of a sperm whale processed at the Naden Harbour whaling station. The remains were photographed before being shipped to the Pacific Biological Station at Nanaimo for identification, and were subsequently lost.",
+        "conditions": { "time_of_day": "Daylight industrial setting", "duration": "Multi-hour processing" },
+        "evidence": ["Photograph of the carcass on a wooden plank", "Workers' testimony"],
+        "credibility": { "rating": "low", "factors": ["Specimen lost", "Photograph quality limited", "Most plausibly a fetal baleen whale or basking shark"], "notes": "Most-cited physical-evidence case; mainstream zoologists view it as a misidentified known species." },
+        "sources": ["Bousfield, E. L. & LeBlond, P. H. (1995)"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
-    "photographic": [],
-    "video": [],
+    "physical": [
+      {
+        "id": "caddy-evidence-naden-1937",
+        "type": "carcass (purported)",
+        "name": "Naden Harbour carcass",
+        "date": "1937",
+        "description": "Long-necked carcass recovered from the stomach of a sperm whale at Naden Harbour, photographed and then lost.",
+        "location": "Naden Harbour whaling station, Haida Gwaii, B.C.",
+        "status": "lost",
+        "analysis": "Mainstream zoologists most often interpret it as a fetal baleen whale or basking shark; cryptozoologists Bousfield and LeBlond (1995) argue for a juvenile Cadborosaurus.",
+        "source": "Bousfield, E. L. & LeBlond, P. H. (1995)"
+      }
+    ],
+    "photographic": [
+      {
+        "id": "caddy-evidence-naden-photo",
+        "type": "photograph",
+        "name": "Naden Harbour carcass photograph",
+        "date": "1937",
+        "description": "Photograph of the 1937 Naden Harbour carcass on a wooden plank.",
+        "status": "disputed",
+        "analysis": "The image is real but the subject is contested; identification as a known animal is favoured by mainstream zoologists.",
+        "source": "Naden Harbour whaling station; reproduced in Bousfield & LeBlond (1995)"
+      }
+    ],
+    "video": [
+      {
+        "id": "caddy-evidence-nash-2009",
+        "type": "video",
+        "name": "Kelly Nash Nushagak Bay footage",
+        "date": "2009",
+        "description": "Video footage shot by Alaskan fisherman Kelly Nash purportedly showing several Cadborosaurus-type animals.",
+        "status": "disputed",
+        "analysis": "Image quality and animal identifications are contested; mainstream interpreters favour known marine mammals.",
+        "source": "Discovery Channel (2011) coverage"
+      }
+    ],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "caddy-evidence-bousfield-leblond-1995",
+        "type": "paper",
+        "name": "An Account of Cadborosaurus willsi, New Genus, New Species",
+        "date": "1995",
+        "description": "Bousfield and LeBlond's monograph compiling roughly 200 sightings and proposing a binomial designation.",
+        "status": "disputed",
+        "analysis": "Most-cited academic argument for Caddy as an unknown species; rejected by mainstream zoology.",
+        "source": "Bousfield, E. L. & LeBlond, P. H. (1995), Amphipacifica"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Undescribed long-necked marine animal",
+        "description": "Bousfield and LeBlond argue that the consistent long-necked, vertically-undulating profile across many independent witnesses points to an undescribed marine reptile or mammal.",
+        "proponents": ["Edward L. Bousfield", "Paul H. LeBlond"],
+        "evidence_cited": ["Approximately 200 compiled sightings", "1937 Naden Harbour carcass photograph", "Indigenous traditions of large sea creatures"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misidentification of basking shark and other large fish",
+        "description": "Many long-bodied surface sightings are best explained by basking sharks (Cetorhinus maximus), which can exceed 9 m (30 ft) and produce 'humped' wakes when surface-feeding.",
+        "proponents": ["Darren Naish", "Mainstream marine zoologists"],
+        "evidence_cited": ["Basking shark distribution in Pacific Northwest waters", "Decomposed basking sharks producing 'pseudoplesiosaur' carcasses"]
+      },
+      {
+        "name": "Decomposed whale or oarfish carcasses",
+        "description": "The 1937 Naden Harbour carcass and similar specimens are best explained by fetal baleen whales, partially-decomposed cetaceans, or oarfish (Regalecus glesne).",
+        "proponents": ["Cetologists at Pacific Biological Station, Nanaimo"],
+        "evidence_cited": ["Pacific oarfish records", "Fetal baleen-whale anatomy"]
+      },
+      {
+        "name": "Aggregated heterogeneous misidentifications",
+        "description": "Naish argues that the case is best explained by treating Caddy not as a single creature but as a category that pools different misidentified animals (sea lions in formation, elephant seals, basking sharks) under one cultural label.",
+        "proponents": ["Darren Naish"],
+        "evidence_cited": ["Variation across sighting accounts", "1943 Georgia Strait police-report case later identified as sea lions in formation"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Pacific Northwest Coast First Nations traditions of large sea beings",
+        "Manhousat hiyitlik tradition",
+        "Kwakwaka'wakw sisiutl tradition (related but distinct)"
+      ],
+      "stories": [
+        "1933 Langley Discovery Island sighting and naming of Caddy",
+        "1937 Naden Harbour carcass",
+        "2009 Kelly Nash Nushagak Bay footage"
+      ],
+      "beliefs": "Caddy occupies a comfortable place in regional Pacific Northwest folklore; he is a tourist mascot, an object of serious cryptozoological investigation, and a continuing subject of newspaper interest."
+    },
+    "indigenous": {
+      "cultures": ["Manhousat (Nuu-chah-nulth)", "Kwakwaka'wakw", "Coast Salish nations"],
+      "significance": "Pacific Northwest Coast peoples maintain long-running traditions of large sea creatures with their own names and ceremonial significance.",
+      "sensitivity_note": "First Nations traditions about sea beings are not interchangeable with the colonial 'Caddy' framing and should be cited with care.",
+      "respect_guidelines": "Engage relevant First Nations cultural authorities for any region-specific use of these traditions; cite Indigenous knowledge holders directly."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Cadborosaurus: Survivor from the Deep — Edward L. Bousfield and Paul H. LeBlond (1995)",
+        "Mysterious Creatures: A Guide to Cryptozoology — George M. Eberhart (2002) (Cadborosaurus entry)"
+      ],
+      "film_tv": [
+        "Coverage on 'River Monsters' (Animal Planet)",
+        "Coverage on 'Hilstranded' / Discovery Channel features on Nash footage (2011)"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Tourism mascot of Cadboro Bay (the 'Caddy' sculpture in Gyro Park)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Dr. Edward L. Bousfield", "affiliation": "Royal British Columbia Museum (formerly Canadian Museum of Nature)", "contribution": "Co-author of the 1995 'Cadborosaurus willsi' description and standing book treatment", "period": "1980s–2000s" },
+      { "name": "Dr. Paul H. LeBlond", "affiliation": "University of British Columbia (oceanography)", "contribution": "Co-author of Bousfield's 1995 description; long-running compiler of sightings", "period": "1970s–2000s" },
+      { "name": "Dr. Darren Naish", "affiliation": "University of Southampton (palaeozoology)", "contribution": "Skeptical analyses of the Cadborosaurus case", "period": "2000s–present" }
+    ],
+    "organizations": [
+      { "name": "British Columbia Scientific Cryptozoology Club", "url": "https://bcscc.ca/", "focus": "Citizen science investigation of B.C. cryptids including Caddy" }
+    ],
+    "ongoing_studies": "Continued accumulation of contemporary sighting reports along the Pacific coast; ongoing skeptical analyses applying cetological and shark-biology data to the historic case record."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-cadborosaurus", "type": "website", "title": "Cadborosaurus", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Cadborosaurus", "accessed": "2026-05-07" },
+    { "id": "bousfield-leblond-1995-paper", "type": "paper", "title": "An Account of Cadborosaurus willsi, New Genus, New Species, a Large Aquatic Reptile from the Pacific Coast of North America", "authors": ["Edward L. Bousfield", "Paul H. LeBlond"], "publication": "Amphipacifica", "date": "1995" },
+    { "id": "bousfield-leblond-1995-book", "type": "book", "title": "Cadborosaurus: Survivor from the Deep", "authors": ["Paul H. LeBlond", "Edward L. Bousfield"], "publication": "Horsdal & Schubart", "date": "1995", "isbn": "978-0920663332" },
+    { "id": "eberhart-2002", "type": "book", "title": "Mysterious Creatures: A Guide to Cryptozoology", "authors": ["George M. Eberhart"], "publication": "ABC-CLIO", "date": "2002", "isbn": "978-1576072837" }
+  ]
 }
